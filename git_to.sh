@@ -1,5 +1,5 @@
 
-git add *.log *.conf *.sh *.txt
+git add *.log *.apodder *.sh *.txt
  
 git commit -m "$(date)"
 
