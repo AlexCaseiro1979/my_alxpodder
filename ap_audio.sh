@@ -14,7 +14,7 @@ cd $(dirname $0)
 # if the program is called to clean a previous run which went wrong:
 if [ "$1" = "clean" ]; then
 	cat podcast.log >> temp_pc.log ; sort temp_pc.log | uniq > podcast.log ; rm temp_pc.log
-	rm audio.mp3
+	rm audio.mp3 parse_enclosure2.xsl
 
 else
 
