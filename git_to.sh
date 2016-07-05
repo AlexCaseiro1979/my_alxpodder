@@ -1,6 +1,6 @@
 
 # in order to stage manually deleted files for commit:
-git rm $(git ls-files --deleted)
+git rm --ignore-unmatch $(git ls-files --deleted)
 
 git add -A *.log *.apodder *.sh *.txt
  
