@@ -1,0 +1,47 @@
+<outline text="DASSE" xmlUrl="http://feeds.feedburner.com/dassepodcast" type="rss" />
+<outline text="MADE OF THINGS" xmlUrl="http://feeds.feedburner.com/MadeOfThingsPodcast" type="rss" />
+<outline text="falar criativo: criatividade / ideias / entrevistas / pessoas" xmlUrl="http://falarcriativo.com/feed/podcast/" type="rss" />
+<outline text="VHS" xmlUrl="http://justcast.herokuapp.com/shows/daniel-louro-vhs/audioposts.rss" type="rss" />
+<outline text="SBROING" xmlUrl="http://feeds.feedburner.com/sbroing" type="rss" />
+<outline text="Brief Mal Passado" xmlUrl="http://briefmalpassado.com/feed/podcast/" type="rss" />
+<outline text="A Mosca" xmlUrl="http://feeds.feedburner.com/A_Mosca" type="rss" />
+<outline text="Podcast do Kioske - Kioske da Maçã" xmlUrl="http://www.kioskedamaca.com/podcastdokioske?format=rss" type="rss" />
+<outline text="Segundo Take" xmlUrl="http://segundotake.squarespace.com/podcast?format=rss" type="rss" />
+<outline text="Outro Paulo | O podcast de Paulo Pereira Cristóvão" xmlUrl="http://outropaulo.pt/feed/podcast/" type="rss" />
+<outline text="Escriba Cafe" xmlUrl="http://www.escribacafe.com/feed/" type="rss" />
+<outline text="Já Pensou?! Empreendedorismo Social" xmlUrl="http://japensou.se/blog/feed/podcast/" type="rss" />
+<outline text="Ponto de Indiferença" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:166416712/sounds.rss" type="rss" />
+<outline text="Rádio Defusão" xmlUrl="http://feeds.feedburner.com/radiodefusao" type="rss" />
+<outline text="SpinOff" xmlUrl="http://spinoff.podomatic.com/rss2.xml" type="rss" />
+<outline text="M80">
+<outline text="Linha de Passe" xmlUrl="http://feeds.feedburner.com/linha-de-passe" type="rss" />
+
+<outline text="Rádiofobia Classics" xmlUrl="http://radiofobia.com.br/category/podcast/classics/feed/?redirect=no" type="rss" />
+<outline text="Amote Rádio" xmlUrl="http://amoteradio.podOmatic.com/rss2.xml" type="rss" />
+<outline text="Oxigénio - A REVOLTA do Vinyl" xmlUrl="http://arevoltadovinyl.podOmatic.com/rss2.xml" type="rss" />
+<outline text="Lowe Lisboa" xmlUrl="http://feeds.rapidfeeds.com/6308/" type="rss" />
+<outline text="Vidro Azul" xmlUrl="http://vidroazul.libsyn.com/rss" type="rss" />
+<outline text="The Martin Garrix Show" xmlUrl="http://themartingarrixshow.spinninpodcasts.com/rss" type="rss" />
+<outline text="Martin Garrix Podcast" xmlUrl="http://feeds.djpod.com/martingarrixfrance" type="rss" />
+<outline text="Noites de InSOMnia" xmlUrl="http://mau10.podomatic.com/rss2.xml" type="rss" />
+<outline text="um gato na pradaria" xmlUrl="http://feeds.feedburner.com/umgatonapradaria" type="rss" />
+<outline text="Planeta Pop" xmlUrl="http://planeta-pop.podomatic.com/rss2.xml" type="rss" />
+<outline text="o cubo . net" xmlUrl="http://feeds.feedburner.com/OCuboNet" type="rss" />
+<outline text="em transe" xmlUrl="http://feeds.feedburner.com/EmTranse" type="rss" />
+</outline>
+<outline text="Música 2">
+<outline text="Rádio Etiópia" xmlUrl="http://radioetiopia.podomatic.com/rss2.xml" type="rss" />
+<outline text="L'Espace" xmlUrl="http://feeds.feedburner.com/lespace" type="rss" />
+</outline>
+<outline text="Radio Comercial">
+<outline text="Rádio Comercial - Momento da Manhã" xmlUrl="http://feeds.feedburner.com/rc-momentodamanha" type="rss" />
+<outline text="Rádio Comercial - Hoje é Dia De..." xmlUrl="http://feeds.feedburner.com/rc-hojeediade" type="rss" />
+<outline text="Rádio Comercial - Rebenta a Bolha com César Mourão" xmlUrl="http://feeds.feedburner.com/rc-rebenta-a-bolha" type="rss" />
+<outline text="Rádio Comercial - Gira Discos" xmlUrl="http://feeds.feedburner.com/rc-giradiscos" type="rss" />
+<outline text="Rádio Comercial - O Chef sou eu" xmlUrl="http://feeds.feedburner.com/rc-ochefsoueu" type="rss" />
+</outline>
+<outline text="RFM">
+<outline text="Supcelente Nilton na RFM" xmlUrl="http://rfm.sapo.pt/podcast_itunes.aspx" type="rss" />
+<outline text="Gargalhada do dia no Café da Manhã da RFM" xmlUrl="http://rfm.sapo.pt/podcast_itunes_cafe.aspx" type="rss" />
+<outline text="RFM - Pastilhas para a Tosse/" xmlUrl="http://rfm.sapo.pt/podcastfeed.aspx?did=37338" type="rss" />
+<outline text="RFM Somnii" xmlUrl="http://rfm.sapo.pt/podcast_dancefloor.aspx" type="rss" />
