@@ -1,3 +1,8 @@
+Povo que ainda canta
+Anatomia do crime
+A vida dos sons
+Radio taxismo
+
 <outline text="DASSE" xmlUrl="http://feeds.feedburner.com/dassepodcast" type="rss" />
 <outline text="MADE OF THINGS" xmlUrl="http://feeds.feedburner.com/MadeOfThingsPodcast" type="rss" />
 <outline text="falar criativo: criatividade / ideias / entrevistas / pessoas" xmlUrl="http://falarcriativo.com/feed/podcast/" type="rss" />
