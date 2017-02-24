@@ -70,8 +70,12 @@ while read podcast
 							newname=$podname$seprdr$poddate$n$extmp3
 							n=$(expr $n + 1)
 							done
-						echo -e "${GREEN}\t$newname${NC}"
-						mv "$(pwd)/audio.mp3" "$(pwd)/$datadir/$newname"
+                                                if [ \! -s f ];
+                                                    then rm "$(pwd)/audio.mp3"
+                                                else
+						    echo -e "${GREEN}\t$newname${NC}"
+						    mv "$(pwd)/audio.mp3" "$(pwd)/$datadir/$newname"
+                                                fi
 					fi
 				fi
 				done
