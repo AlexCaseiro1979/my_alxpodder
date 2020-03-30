@@ -56,10 +56,10 @@ while read podcast; do
     echo -e "${YELLOW}$podname${NC}"
 
   else
-    file=$(xsltproc parse_enclosure2.xsl $podcast 2> /dev/null || wget -q $podcast -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p')
+    file="$(xsltproc parse_enclosure2.xsl $podcast 2> /dev/null || wget -q $podcast -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p')"
 
     for url in $file; do
-      echo $url >> temp_pc.log
+      echo "$url" >> temp_pc.log
       if [[ "$2" != "no-download" ]]; then
         if ! grep "$url" podcast.log > /dev/null; then
 
@@ -68,8 +68,8 @@ while read podcast; do
           fi
 
   	  if [[ "$2" != "list" ]]; then
-            wget -q "$url" -O audio.mp3
-            poddate=$(stat -c "%y" "audio.mp3"|awk '{print $1"_"$2}'|sed 's/\..*$//'|sed 's/:/-/'|sed 's/:/-/')
+            wget -q --no-check-certificate "$url" -O audio.mp3
+            poddate="$(stat -c "%y" "audio.mp3"|awk '{print $1"_"$2}'|sed 's/\..*$//'|sed 's/:/-/'|sed 's/:/-/')"
             newname=$podname$seprdr$poddate$extmp3
             n=1
 
@@ -84,9 +84,9 @@ while read podcast; do
               echo -e "${GREEN}\t$newname${NC}"
               mv "$(pwd)/audio.mp3" "$(pwd)/$datadir/$newname"
             fi
-	    
+
           fi
-	
+
         fi
       fi
     done
