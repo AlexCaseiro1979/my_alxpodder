@@ -64,7 +64,7 @@ while read podcast; do
         if ! grep "$url" podcast.log > /dev/null; then
 
       	  if [[ "$2" == "list" ]]; then
-            echo $url >> $datadir$extm3u
+            echo "$url" >> $datadir$extm3u
           fi
 
   	  if [[ "$2" != "list" ]]; then
