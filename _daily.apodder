@@ -14,10 +14,6 @@ A3-Prova_Oral
 http://www.rtp.pt/play/podcast/260
 TSF-Tubo_de_Ensaio
 http://feeds.tsf.pt/TSF-TuboEnsaio
-FInfo-Voyages_et_Decouvertes
-http://radiofrance-podcast.net/podcast09/rss_11645.xml
-TSF-Mundo_digital
-http://feeds.tsf.pt/Tsf-MundoDigital
 FM4-Reality_Check
 http://static.orf.at/podcast/fm4/fm4_reality_check_podcast.xml
 A1-Revista_de_Imprensa
@@ -32,8 +28,6 @@ FI-La_marche_de_l_histoire
 http://radiofrance-podcast.net/podcast09/rss_11739.xml
 FC-Revue_de_presse_internationale
 http://radiofrance-podcast.net/podcast09/rss_10901.xml
-FM-Open_Jazz
-http://radiofrance-podcast.net/podcast09/rss_12283.xml
 A2-Ultima_edição
 http://www.rtp.pt/play/podcast/303
 FC-Enjeux_Internationaux
@@ -134,3 +128,7 @@ LP-PlanB
 http://rss.rtbf.be/media/rss/audio/14989.xml
 LP-Le_Mug
 http://rss.rtbf.be/media/rss/audio/lp-mug_recent.xml
+LP-Entrez_sans_frapper
+http://rss.rtbf.be/media/rss/audio/lp-esf_recent.xml
+FC-Le_Tour_du_Mondes_des_Idees
+http://radiofrance-podcast.net/podcast09/rss_12014.xml
