@@ -16,6 +16,9 @@ extm3u=.m3u
 extmp3=.mp3
 seprdr=_
 
+# backup podcast.log
+cp podcast.log podcast.log.backup
+
 # if the program is called to clean a previous run which went wrong:
 if [[ "$1" = "clean" ]]; then
 cat podcast.log >> temp_pc.log ; sort temp_pc.log | uniq > podcast.log ; rm temp_pc.log
