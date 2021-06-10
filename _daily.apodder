@@ -46,8 +46,6 @@ A3-AleixoFM
 http://www.rtp.pt//play/itunes/510
 A1-O_Fio_da_Meada
 http://www.rtp.pt//play/itunes/2057
-SWR2_Hoerspiel
-http://kindernetz.de/podcast/kindernetz.xml
 Dlf-Forschung_aktuell
 https://www.deutschlandfunk.de/podcast-forschung-aktuell-komplette-sendung.417.de.podcast.xml
 Dlf-Umwelt_und_Verbraucher
@@ -66,8 +64,6 @@ RFM-Para_a_troca
 https://rfm.sapo.pt/podcastfeed/52/para-a-troca
 SWR3-Topthema
 https://www.swr3.de/export/podcast/SWR3-Topthema/-/id=477150/did=447000/b4xq4r/index.xml
-NDR_Coronavirus
-https://www.ndr.de/nachrichten/info/podcast4684.xml
 FI-Le_Billet_de_Charline
 http://radiofrance-podcast.net/podcast09/rss_13129.xml
 Dlf_Kultur-Politisches_Feuilleton
@@ -80,7 +76,17 @@ LP-Au_bout_du_jour
 http://rss.rtbf.be/media/rss/audio/lp-aubout_recent.xml
 LP-Le_Mug
 http://rss.rtbf.be/media/rss/audio/lp-mug_recent.xml
-LP-Entrez_sans_frapper
-http://rss.rtbf.be/media/rss/audio/lp-esf_recent.xml
 FC-Le_Tour_du_Monde_des_Idees
 http://radiofrance-podcast.net/podcast09/rss_12014.xml
+FC-La_Transition
+https://radiofrance-podcast.net/podcast09/rss_20363.xml
+FC-Superfail
+https://radiofrance-podcast.net/podcast09/rss_18064.xml
+FC-La_Question_du_Jour
+https://radiofrance-podcast.net/podcast09/rss_16362.xml
+FC-Le_Journal_des_Idees
+https://radiofrance-podcast.net/podcast09/rss_12003.xml
+FC-Le_Journal_des_Sciences
+https://radiofrance-podcast.net/podcast09/rss_14312.xml
+FC-La_Revue_de_Presse_des_Idees
+https://radiofrance-podcast.net/podcast09/rss_21168.xml
