@@ -26,12 +26,6 @@ Oe1-Reisemagazin
 http://static.orf.at/podcast/oe1/oe1_ambiente.xml
 FInfo-Bande_dessinee
 http://radiofrance-podcast.net/podcast09/rss_11592.xml
-TSF-Encontros_com_o_Patrimonio
-http://feeds.tsf.pt/Tsf-EncontrosPatrimonio
-TSF-Governo_Sombra
-http://feeds.tsf.pt/Tsf-GovernoSombra-Podcast
-TSF-Bikes
-http://feeds.tsf.pt/Tsf-Bike
 A1-Os_Dias_do_Futuro
 http://www.rtp.pt/play/podcast/383
 USGS-Corecast
@@ -42,8 +36,6 @@ A1-Contraditorio
 http://www.rtp.pt/play/podcast/283
 TSF-Bloco_central
 http://feeds.tsf.pt/Tsf-BlocoCentral
-TSF-Pares_da_República
-http://feeds.tsf.pt/TSF-ParesRepublica
 Earth_Policy_Institute
 http://earthpolicyinstitute.libsyn.com/rss
 FI-CO2_mon_amour
@@ -98,12 +90,6 @@ DLF-Kakadu
 feed://www.kakadu.de/podcast-kakadu.2730.de.podcast.xml
 Oh_Baby
 http://feeds.soundcloud.com/users/soundcloud:users:298178892/sounds.rss
-WDR2-Bundesliga2go
-http://www1.wdr.de/mediathek/audio/wdr2/wdr2-bundesliga-togo/bundesliga-togo-102.podcast
-TSF-Entrelinhas
-http://feeds.tsf.pt/Tsf-Entrelinhas
-TSF-SemModeracao
-http://feeds.tsf.pt/semmoderacao
 CNES
 www.cnes-multimedia.fr/podcast/mardi-espace.xml
 RadioTirana-FR
@@ -114,8 +100,6 @@ RadioTirana-DE
 http://www.radio360.eu/podcasts/de/al/tirana/tirana.php
 GuardianUK-Science
 https://www.theguardian.com/science/series/science/podcast.xml
-Nova-NeoGeo
-http://feeds.feedburner.com/NeoGeoNova
 Spiegel-AchtMilliarden
 http://feeds.soundcloud.com/users/soundcloud:users:330222845/sounds.rss
 FI-LaFenetreDeLaPorte
@@ -128,12 +112,12 @@ FC-La_Conversation_Scientifique
 http://radiofrance-podcast.net/podcast09/rss_13957.xml
 AGU-ThirdPodFromTheSun
 https://feeds.blubrry.com/feeds/thirdpodfromthesun.xml
-TSF-A_Circulatura_do_Quadrado
-http://feeds.tsf.pt/Tsf-Circulatura
 FI-Une_Heure_en_Series
 http://radiofrance-podcast.net/podcast09/rss_20470.xml
 TSF-A_Espantosa_Realidade_das_Coisas
 http://feeds.tsf.pt/aespantosarealidadedascoisas-Podcast
+TSF-O_principio_da_Incerteza
+http://feeds.tsf.pt/OPrincopioDaIncerteza-Podcast
 ARTE_radio-Depeche
 https://www.arteradio.com/xml_sound_emission?emissionname=%22D%C3%89P%C3%8ACHE%20!%22
 ARTE_radio-Fermez_les_yeux
@@ -174,8 +158,6 @@ LP-Futur_Simple
 http://rss.rtbf.be/media/rss/audio/lp-map-futur_recent.xml
 LP-Dans_quel_Monde_on_vit
 http://rss.rtbf.be/media/rss/audio/lp-dqmv_focus.xml
-FInfo-Voyages_et_Decouvertes
-http://radiofrance-podcast.net/podcast09/rss_11645.xml
 CityRoadPodcast
 https://feeds.soundcloud.com/users/soundcloud:users:302179202/sounds.rss
 Dlf_Kultur-Breitband
@@ -184,8 +166,6 @@ TSF-Reportagem
 http://feeds.tsf.pt/Tsf-ReportagemTsf
 Dlf-Computer_und_Kommunikation
 https://www.deutschlandfunk.de/podcast-computer-und-kommunikation-komplette-sendung.416.de.podcast.xml
-Dlf-Reportage
-https://www.deutschlandfunkkultur.de/podcast-die-reportage.1077.de.podcast.xml
 Awake_at_Night
 https://podcasts.google.com/?feed=aHR0cDovL3VuaGNyLmxpYnN5bi5jb20vcnNz
 SWR3-Doktorspiele
