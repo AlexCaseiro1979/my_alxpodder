@@ -1,5 +1,5 @@
 #!/bin/bash
-# By ambalex 12/11/2013
+# By ambalex, latest development 23/08/2023
 # Based on the bashpodder script by Linc http://lincgeek.org/bashpodder (Revision 1.21 12/04/2008 - Many Contributers!)
 
 # Colors for the output
@@ -22,24 +22,9 @@ cp podcast.log podcast.log.backup
 # if the program is called to clean a previous run which went wrong:
 if [[ "$1" = "clean" ]]; then
 cat podcast.log >> temp_pc.log ; sort temp_pc.log | uniq > podcast.log ; rm temp_pc.log
-rm audio.mp3 parse_enclosure2.xsl
+rm audio.mp3
 
 else
-
-# write the parse_enclosure2.xsl file
-cat > parse_enclosure2.xsl << _EOF_
-<?xml version="1.0"?>
-<stylesheet version="1.0"
-    xmlns="http://www.w3.org/1999/XSL/Transform">
-    <output method="text"/>
-    <template match="/">
-        <apply-templates select="/rss/channel/item/enclosure"/>
-    </template>
-    <template match="enclosure">
-        <value-of select="@url"/><text>&#10;</text>
-    </template>
-</stylesheet>
-_EOF_
 
 # datadir is the directory you want podcasts saved to
 datadir=$(date +%Y-%m-%d_%H-%M)
@@ -51,17 +36,20 @@ rm -f temp_pc.log
 # Read the $1 file and wget any url not already in the podcast.log file
 # and rename the downloaded file:
 countlines=1
-while read podcast; do
+while read xml_url; do
   rem=$(( $countlines % 2 ))
 
   if [ $rem -eq 1 ]; then
-    podname=$podcast
+    podname=$xml_url
     echo -e "${YELLOW}$podname${NC}"
 
   else
-    file="$(xsltproc parse_enclosure2.xsl $podcast 2> /dev/null || wget -q $podcast -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p')"
+    podcast=$(wget -qO - "$xml_url")
+    #file="$(xsltproc parse_enclosure2.xsl $podcast 2> /dev/null || wget -q $podcast -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p')"
+	mp3_links=($(echo "$podcast" | grep '\.mp3"' | awk -F "\"" '{print $2}' ))
 
-    for url in $file; do
+    #for url in $file; do
+	for url in "${mp3_links[@]}"; do
       echo "$url" >> temp_pc.log
       if [[ "$2" != "no-download" ]]; then
         if ! grep "$url" podcast.log > /dev/null; then
@@ -105,6 +93,6 @@ fi
 # Move dynamically created log file to permanent log file:
 cat podcast.log >> temp_pc.log
 sort temp_pc.log | uniq > podcast.log
-rm temp_pc.log parse_enclosure2.xsl
+rm temp_pc.log
 
 fi
