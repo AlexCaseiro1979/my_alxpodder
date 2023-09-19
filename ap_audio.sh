@@ -46,7 +46,8 @@ while read xml_url; do
   else
     podcast=$(wget -qO - "$xml_url")
     #file="$(xsltproc parse_enclosure2.xsl $podcast 2> /dev/null || wget -q $podcast -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p')"
-	mp3_links=($(echo "$podcast" | grep '\.mp3"' | awk -F "\"" '{print $2}' ))
+	#mp3_links=($(echo "$podcast" | grep '\.mp3"' | awk -F "\"" '{print $2}' ))
+	mp3_links=($(echo "$podcast" | grep '\.mp3' | awk -F "\"" '{print $2}' ))
 
     #for url in $file; do
 	for url in "${mp3_links[@]}"; do
