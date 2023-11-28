@@ -44,9 +44,7 @@ while read xml_url; do
     echo -e "${YELLOW}$podname${NC}"
 
   else
-    podcast=$(wget -qO - "$xml_url")
-    #file="$(xsltproc parse_enclosure2.xsl $podcast 2> /dev/null || wget -q $podcast -O - | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p')"
-	#mp3_links=($(echo "$podcast" | grep '\.mp3"' | awk -F "\"" '{print $2}' ))
+	podcast=$(wget -qO- --no-check-certificate - "$xml_url")
 	mp3_links=($(echo "$podcast" | grep '\.mp3' | awk -F "\"" '{print $2}' ))
 
     #for url in $file; do
